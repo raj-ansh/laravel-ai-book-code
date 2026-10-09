@@ -1,0 +1,24 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "description": {
+            "type": "string"
+        },
+        "seo_title": {
+            "type": "string"
+        },
+        "meta_description": {
+            "type": "string"
+        },
+        "social_post": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "description",
+        "seo_title",
+        "meta_description",
+        "social_post"
+    ]
+}

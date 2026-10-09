@@ -1,0 +1,36 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "payment_days": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "notice_days": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "late_penalty_percent": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "late_penalty_cap_percent": {
+            "type": [
+                "number",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "payment_days",
+        "notice_days",
+        "late_penalty_percent",
+        "late_penalty_cap_percent"
+    ]
+}

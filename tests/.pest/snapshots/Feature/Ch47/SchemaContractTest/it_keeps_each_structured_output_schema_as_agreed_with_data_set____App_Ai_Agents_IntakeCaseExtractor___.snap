@@ -1,0 +1,37 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "category": {
+            "enum": [
+                "damaged_item",
+                "not_delivered",
+                "refund_request",
+                "product_question",
+                "other"
+            ],
+            "type": "string"
+        },
+        "order_number": {
+            "type": "string"
+        },
+        "wants": {
+            "enum": [
+                "refund",
+                "replacement",
+                "information",
+                "other"
+            ],
+            "type": "string"
+        },
+        "summary": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "category",
+        "order_number",
+        "wants",
+        "summary"
+    ]
+}

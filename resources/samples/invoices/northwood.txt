@@ -1,0 +1,15 @@
+From: billing@northwood.example
+Subject: Northwood invoice for October
+
+Hello,
+
+Invoice NW/4471 dated 3rd Oct 2026 for the floor lamps you
+ordered. We bill in rupees as usual.
+
+- LED floor lamp, matt black: 12 pcs at Rs. 5,400 each
+- Spare shades: 6 pcs at Rs. 450 each
+
+Amount payable: Rs. 67,500
+
+Thanks,
+Northwood Home

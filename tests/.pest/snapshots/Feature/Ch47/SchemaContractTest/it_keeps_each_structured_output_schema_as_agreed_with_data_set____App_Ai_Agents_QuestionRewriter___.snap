@@ -1,0 +1,20 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "standalone": {
+            "type": "string"
+        },
+        "variants": {
+            "maxItems": 3,
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        }
+    },
+    "type": "object",
+    "required": [
+        "standalone",
+        "variants"
+    ]
+}

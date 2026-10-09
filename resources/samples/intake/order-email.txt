@@ -1,0 +1,13 @@
+From: orders@acme.example
+Subject: Your Acme order A-2001 has shipped
+
+Hello Ravi,
+
+Your order A-2001 has shipped and should arrive within
+5 working days.
+
+  1 x Brass Desk Lamp (SKU-1001)     INR 4,599.00
+
+Total paid: INR 4,599.00
+
+Thank you for shopping with Acme.

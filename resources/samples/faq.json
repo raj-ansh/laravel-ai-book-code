@@ -1,0 +1,12 @@
+[
+    {"q": "How do I return an item?", "a": "Start a return from your order page within 30 days of delivery. Items must be unused and in their original packaging."},
+    {"q": "When will I get my refund?", "a": "Refunds reach your original payment method within 7 working days of us receiving the return."},
+    {"q": "How long does delivery take?", "a": "Most orders arrive in 3 to 5 working days. Remote areas can take up to 8 days."},
+    {"q": "How can I track my order?", "a": "Use the tracking link in your shipping email, or open the order in your account."},
+    {"q": "Do you deliver outside India?", "a": "Not yet. We deliver to all Indian PIN codes only."},
+    {"q": "Can I change my delivery address?", "a": "Yes, until the order ships. Open the order and choose Change address."},
+    {"q": "What warranty do lamps have?", "a": "All lamps have a one-year warranty against manufacturing defects. Bulbs are covered for six months."},
+    {"q": "My item arrived damaged. What should I do?", "a": "Tell us within 48 hours with a photo. We pay return shipping and send a replacement or a refund."},
+    {"q": "Which payment methods do you accept?", "a": "UPI, credit and debit cards, net banking and cash on delivery for orders under INR 10,000."},
+    {"q": "Can I cancel my order?", "a": "Yes, free of charge until it ships. After that, return it when it arrives."}
+]

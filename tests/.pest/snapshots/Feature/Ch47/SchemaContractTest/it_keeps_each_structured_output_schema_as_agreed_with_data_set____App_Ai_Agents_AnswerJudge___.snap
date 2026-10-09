@@ -1,0 +1,16 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "reason": {
+            "type": "string"
+        },
+        "supported": {
+            "type": "boolean"
+        }
+    },
+    "type": "object",
+    "required": [
+        "reason",
+        "supported"
+    ]
+}

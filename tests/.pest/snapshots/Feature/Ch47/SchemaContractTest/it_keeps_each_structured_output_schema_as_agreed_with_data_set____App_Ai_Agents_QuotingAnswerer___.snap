@@ -1,0 +1,32 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "quotes": {
+            "items": {
+                "properties": {
+                    "source": {
+                        "type": "integer"
+                    },
+                    "text": {
+                        "type": "string"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "source",
+                    "text"
+                ],
+                "additionalProperties": false
+            },
+            "type": "array"
+        },
+        "answer": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "quotes",
+        "answer"
+    ]
+}

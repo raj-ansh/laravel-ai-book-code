@@ -1,0 +1,49 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "metric": {
+            "enum": [
+                "order_count",
+                "revenue",
+                "average_order_value",
+                "unsupported"
+            ],
+            "type": "string"
+        },
+        "period": {
+            "enum": [
+                "last_7_days",
+                "last_30_days",
+                "this_month",
+                "last_month"
+            ],
+            "type": "string"
+        },
+        "group_by": {
+            "enum": [
+                "none",
+                "status",
+                "week",
+                "day"
+            ],
+            "type": "string"
+        },
+        "status": {
+            "enum": [
+                "any",
+                "processing",
+                "shipped",
+                "delivered",
+                "cancelled"
+            ],
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "metric",
+        "period",
+        "group_by",
+        "status"
+    ]
+}

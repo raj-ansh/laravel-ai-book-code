@@ -1,0 +1,22 @@
+From: accounts@brightlite.example
+Subject: Invoice BL-2026-0912
+
+Dear Acme team,
+
+Please find our invoice for the September delivery below.
+
+Invoice number: BL-2026-0912
+Invoice date: 28 September 2026
+Currency: INR
+
+  Brass desk lamp (wholesale)   20 x 2,150.00   43,000.00
+  Warm LED bulb, 8W             40 x    95.00    3,800.00
+  Packaging and freight                          1,200.00
+
+  Total due:                                    48,000.00
+
+Payment within 30 days to the account on file.
+
+Regards,
+Meera Iyer
+BrightLite Lighting Pvt. Ltd.

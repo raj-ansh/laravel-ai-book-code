@@ -1,0 +1,21 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "reason": {
+            "type": "string"
+        },
+        "type": {
+            "enum": [
+                "invoice",
+                "contract",
+                "other"
+            ],
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "reason",
+        "type"
+    ]
+}

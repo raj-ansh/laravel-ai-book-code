@@ -1,0 +1,60 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "reason": {
+            "description": "One sentence: why this triage.",
+            "type": "string"
+        },
+        "category": {
+            "enum": [
+                "billing",
+                "technical",
+                "account",
+                "delivery",
+                "security",
+                "other"
+            ],
+            "type": "string"
+        },
+        "priority": {
+            "enum": [
+                "low",
+                "normal",
+                "high",
+                "urgent"
+            ],
+            "type": "string"
+        },
+        "requires_human": {
+            "type": "boolean"
+        },
+        "tags": {
+            "maxItems": 3,
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "summary": {
+            "description": "At most 15 words.",
+            "type": "string"
+        },
+        "customer_name": {
+            "description": "As signed in the ticket, if any.",
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "reason",
+        "category",
+        "priority",
+        "requires_human",
+        "tags",
+        "summary",
+        "customer_name"
+    ]
+}

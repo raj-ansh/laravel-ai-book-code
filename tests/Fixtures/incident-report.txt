@@ -1,0 +1,19 @@
+Incident report: checkout outage, 14 March
+
+Between 09:12 and 10:05 the checkout page returned errors
+for about 40% of customers. The cause was a database
+migration that added an index to the orders table without
+the CONCURRENTLY option, which locked the table.
+
+Around 310 orders failed during the outage. Support
+received 57 tickets. Engineering rolled the migration
+back at 10:05 and service recovered within two minutes.
+
+We do not yet know whether any customers were charged
+without an order being created. Finance is checking the
+payment provider's records and expects an answer by
+Friday.
+
+Follow-up: migrations that touch large tables must be
+reviewed by the database team before release. Priya
+will add a check to the deployment pipeline next sprint.

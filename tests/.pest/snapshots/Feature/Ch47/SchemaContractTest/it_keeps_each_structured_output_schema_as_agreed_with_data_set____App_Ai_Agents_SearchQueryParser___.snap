@@ -1,0 +1,23 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "terms": {
+            "type": "string"
+        },
+        "max_price_inr": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "in_stock": {
+            "type": "boolean"
+        }
+    },
+    "type": "object",
+    "required": [
+        "terms",
+        "max_price_inr",
+        "in_stock"
+    ]
+}

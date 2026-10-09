@@ -1,0 +1,19 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "issues": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "approved": {
+            "type": "boolean"
+        }
+    },
+    "type": "object",
+    "required": [
+        "issues",
+        "approved"
+    ]
+}

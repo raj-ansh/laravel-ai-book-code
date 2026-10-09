@@ -1,0 +1,14 @@
+[
+    {"id": "delivery-free", "question": "Is delivery free?", "must_contain": ["999"]},
+    {"id": "delivery-cost", "question": "What does delivery cost?", "must_contain": ["79", "999"]},
+    {"id": "delivery-time", "question": "How long does delivery take?", "must_contain": ["3-5"]},
+    {"id": "return-window", "question": "How long do I have to return a vase?", "must_contain": ["30"]},
+    {"id": "return-headphones", "question": "Can I return headphones after two weeks?", "must_contain": ["10"], "must_not_contain": ["30 days"]},
+    {"id": "return-charger", "question": "I bought a charger 12 days ago. Can I return it?", "must_contain": ["10"]},
+    {"id": "payment", "question": "How can I pay?", "must_contain": ["UPI"]},
+    {"id": "cod-limit", "question": "Can I pay cash on delivery for a INR 15,000 sofa?", "must_contain": ["10,000"]},
+    {"id": "hours", "question": "When is support open?", "must_contain": ["9", "21"]},
+    {"id": "unknown-sunday", "question": "Do you deliver on Sundays?", "must_contain": ["support@acme.test"]},
+    {"id": "unknown-abroad", "question": "Do you ship to Dubai?", "must_contain": ["support@acme.test"]},
+    {"id": "unknown-giftwrap", "question": "Can you gift-wrap my order?", "must_contain": ["support@acme.test"]}
+]

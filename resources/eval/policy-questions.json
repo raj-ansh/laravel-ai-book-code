@@ -1,0 +1,13 @@
+[
+    {"question": "Can I return a lamp I opened?", "source": "Acme returns policy", "facts": ["14 days", "10\\s?%"]},
+    {"question": "How much does express delivery cost?", "source": "Shipping", "facts": ["249"]},
+    {"question": "Is standard delivery free?", "source": "Shipping", "facts": ["1,?000"]},
+    {"question": "How long is the warranty on furniture?", "source": "Warranty", "facts": ["2[- ]year|two years|2 years"]},
+    {"question": "When will my refund arrive?", "source": "Acme returns policy", "facts": ["7 working days|seven working days"]},
+    {"question": "My lamp arrived broken. How soon must I tell you?", "source": "Acme returns policy", "facts": ["48 hours"]},
+    {"question": "Which couriers do you use?", "source": "Shipping", "facts": ["BlueDart|Blue Dart"]},
+    {"question": "Can I return a gift card?", "source": "Acme returns policy", "facts": ["cannot|can't|not"]},
+    {"question": "Do you ship to Dubai?", "source": "Shipping", "facts": ["not|don't|only"]},
+    {"question": "What are your opening hours?", "source": null, "facts": []},
+    {"question": "Do you sell sofas?", "source": null, "facts": []}
+]

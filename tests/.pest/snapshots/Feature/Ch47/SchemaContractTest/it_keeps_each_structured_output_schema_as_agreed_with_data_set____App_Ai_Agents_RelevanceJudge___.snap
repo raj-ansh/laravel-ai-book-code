@@ -1,0 +1,30 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "scores": {
+            "items": {
+                "properties": {
+                    "index": {
+                        "type": "integer"
+                    },
+                    "score": {
+                        "minimum": 0,
+                        "maximum": 10,
+                        "type": "integer"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "index",
+                    "score"
+                ],
+                "additionalProperties": false
+            },
+            "type": "array"
+        }
+    },
+    "type": "object",
+    "required": [
+        "scores"
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "supplier": {
+            "type": "string"
+        },
+        "invoice_number": {
+            "type": "string"
+        },
+        "invoice_date": {
+            "description": "YYYY-MM-DD",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "currency": {
+            "enum": [
+                "INR",
+                "USD",
+                "EUR"
+            ],
+            "type": "string"
+        },
+        "lines": {
+            "items": {
+                "properties": {
+                    "description": {
+                        "type": "string"
+                    },
+                    "quantity": {
+                        "type": "integer"
+                    },
+                    "unit_price": {
+                        "type": "number"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "description",
+                    "quantity",
+                    "unit_price"
+                ],
+                "additionalProperties": false
+            },
+            "type": "array"
+        },
+        "total": {
+            "type": "number"
+        }
+    },
+    "type": "object",
+    "required": [
+        "supplier",
+        "invoice_number",
+        "invoice_date",
+        "currency",
+        "lines",
+        "total"
+    ]
+}
